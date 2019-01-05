@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.firni.zado.zedoregister"
+    android:background="@drawable/zadombg">
+
+
+
+    <EditText
+
+        android:id="@+id/edit_nev"
+        android:layout_above="@id/edit_jelszo"
+
+        android:background="@drawable/edittext_bg"
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Felhasználó név"
+        android:textColorHint="@color/Szurke"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:textColor="@color/Szurke"
+
+
+
+        />
+    <EditText
+        android:id="@+id/edit_jelszo"
+        android:textAlignment="center"
+
+        android:background="@drawable/edittext_bg"
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Jelszó"
+        android:textColorHint="@color/Szurke"
+        android:textColor="@color/Szurke"
+        android:inputType="textPassword"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_jelszoIsm"
+        android:layout_below="@id/edit_jelszo"
+
+        android:background="@drawable/edittext_bg"
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/Szurke"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Jelszó ismét"
+        android:textAlignment="center"
+        android:textColorHint="@color/Szurke"
+        android:inputType="textPassword"
+
+        />
+
+    <Button
+
+        android:id="@+id/btn_regisztracio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edit_jelszoIsm"
+        android:background="@drawable/buttonregisztracio"
+
+
+        />
+
+    <Button
+
+        android:id="@+id/btn_vissza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_login"
+        android:background="@drawable/buttonvissza"
+
+        />
+    <Button
+
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_regisztracio"
+        android:background="@drawable/buttonbelepes"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zadojatekvalaszto"
+    android:background="@drawable/zadombg">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üdvözöllek vendég!"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/user"
+
+
+
+        />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:id="@+id/Elso_linear"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:id="@+id/Quiz_button"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kitaláló"
+        android:id="@+id/Kitalalo_button"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memoria"
+        android:id="@+id/Memoria_button"
+        />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Masodik_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Elso_linear"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Szókeresö"
+            android:id="@+id/Szokereso_button"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parosito"
+            android:id="@+id/Parosito_button"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kijelentkezés"
+        android:id="@+id/Kijelentkezes_button"
+        android:layout_below="@id/Masodik_linear"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kilépés"
+        android:id="@+id/Kilepes_button"
+        android:layout_below="@id/Kijelentkezes_button"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    </RelativeLayout>

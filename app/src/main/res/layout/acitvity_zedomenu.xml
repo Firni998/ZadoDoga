@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zadombg"
+    tools:context="com.example.firni.zado.zedomenu"
+
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quest_button"
+        android:layout_above="@id/Menu_Login_button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonvendeg"
+        />
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/Menu_Login_button"
+        android:background="@drawable/buttonbelepes"
+
+        />
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Menu_Register_button"
+        android:layout_below="@id/Menu_Login_button"
+        android:background="@drawable/buttonregisztracio"
+        />
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Menu_Exit_button"
+        android:layout_below="@id/Menu_Register_button"
+        android:background="@drawable/buttonkilepes"
+        />
+
+
+</RelativeLayout>
